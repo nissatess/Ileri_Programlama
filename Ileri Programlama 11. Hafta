@@ -1,0 +1,57 @@
+'''
+liste=[]
+#liste =liste()
+
+eleman_sayisi=int(input("Eleman okumaya girin"))
+toplam=0
+sayac=0
+i için aralık(0,eleman_sayisi):
+    eleman=int(input("Elemanı girin"))
+    list.append(eleman)
+    #liste.insert(i,eleman)
+    #toplam=toplam+eleman
+    
+i için aralık(0,eleman_sayisi):
+    toplam=toplam+liste[i]
+    
+ortalama=toplam/eleman_sayisi
+liste2=[]
+i için aralık(0,eleman_sayisi):
+    if list[i]>ortalama:
+        sayac=sayac+1
+        #print(liste[i])
+        liste2.append(liste[i])
+        
+print(sayac," adet sayi ortalamasinin uzerindedir. ")
+yazdır(liste2)
+# ***************************************************************************
+liste1=[]
+liste2=[]
+boyut=int(input("Listeye şifreleri girin"))
+
+aralık(0,boyut) içindeki i için:
+    eleman=int(input("1. liste Elemanını girin"))
+    liste1.append(eleman)
+    
+aralık(0,boyut) içindeki i için:
+    eleman=int(input("2.liste Elemanını girin"))
+    liste2.append(eleman)
+    
+esitMi=Doğru
+aralık(0,boyut) içindeki i için:
+    eğer liste1[i]!=liste2[i] ise:
+        esitMi=Yanlış
+        kırmak
+yazdır(liste1)
+yazdır(liste2)
+esitMi ise:
+    print("İki liste büyüklüğü.")
+Başka:
+    print("İki liste eşit değildir.")
+#********************************************************************************
+'''
+sayi = int ( giriş ( "Sayı girin" ))
+
+ i  aralığı için ( 1 ,  sayi + 1 ) :
+    eğer  sayi % i == 0 :
+        yazdır ( ben )

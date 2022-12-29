@@ -1,0 +1,55 @@
+yazi = "Python üst düzey basit söz dizimine sahip, öğrenmesi oldukça kolay, modülerliği, okunabilir olarak tasarlanmış, platform bağımsız nesneli yorumlanabilir bir komut dosyası dilidir."
+
+sesli = "aeıioöuü"
+
+ yazi'de i  için : _ 
+     eğer  sesli ise : _  
+         yazdır ( ben , bitiş = "," )
+         
+         
+sesli_harfler  =  "aeıioöuü"
+ sessizlik_harfler = "  bcçdfgğhjklmnprsştvyz "
+sesliler = ""
+sessizlikler = ""
+a = input ( "bir metin giriniz" )
+
+ ben  için : _  _
+     eğer  sesli_harfler'daysam  : _  _
+           sesliler = sesliler + i
+      sessizlik_harfler içindeysem : _ _  
+           sessizlikler = sessizlikler + i
+
+print ( "sesli harfler" , sesliler )
+print ( "sessiz harfler" , sessizlikler )
+
+harf = "bir"
+sayı = 0
+
+ yazi'de i  için : _ 
+     eğer  ben == "a" :
+         sayac = sayac + 1
+print ( "cümle içinde geçen bir harf sayısı: " , sayac )
+
+bir = Doğru
+poz = 0
+neg = 0
+iken  : _
+    sayi = int ( giriş ())
+     sayi == 0 ise :
+        bir = Yanlış 
+        break
+        
+    elif  sayi > 0 :
+        poz = poz + 1
+    başka :
+        neg = neg + 1
+            
+print ( "Toplam" , poz , "poztif" , neg , "negatif sayı var" )
+        
+harf = giriş ()
+sayı = 0
+
+ yazi'de i  için : _ 
+     if  i == harf :
+         sayac = sayac + 1
+print ( "cümle içinde geçen bir harnf sayısı: " , sayac )

@@ -1,0 +1,89 @@
+#Girilen vize ve final notu ortalama hesaplayan Python örneği?
+
+vize  = int ( giriş ( "Vize notunuzu giriniz" ))
+final  = int ( giriş ( "Son notunuzu giriniz" ))
+
+ortalama = ( vize * 0.4 ) + ( final * 0.6 )
+
+ ortalama <= 40 ise :
+    print ( "Kaldın" )
+başka :
+    print ( "Geçtiniz" )
+    
+    
+#************************************************************
+
+#Klavyeden girilen taban ve üs sürelerine göre o sayının yöneticiliğini hesaplayan ve sonucu ekranda gösteren python yazar.
+
+taban = int ( giriş ( "Tabanı girin" ))
+us = int ( giriş ( "Üs girin" ))
+
+sazan = 1
+
+ aralıktaki i  için ( 0 ,  us ) :
+    carpim = carpim * taban
+    
+print ( taban , " ün " , us , " inci kuvvet =" , carpim , "dir." )
+
+
+ matematiği içe aktar
+
+ders = matematik . güç ( 5 , 3 )
+yazdır ( sonuç )
+#*************************************************************************************************
+
+trBüyük = 0
+enKüçük = 0
+
+sifirMi = Doğru
+
+iken  sifirMi :
+    sayi = int ( giriş ( "Bir sayı girin" ))
+     sayi  == 0 ise :
+        sifirMi = Yanlış
+    elif  sayi < enKüçük :
+        en Küçük = sayi
+    elif  sayi > enBuyuk :
+        enBuyuk = sayi
+        
+print ( "En büyük =" , enBuyuk )
+print ( "En küçük =" , enKüçük )
+
+#******************************************************************************************
+
+ad_soyad = input ( "Adınız ve soyadınızı giriniz" )
+yas = int ( giriş ( "Yaşınızı girin" ))
+eğer  evet > 40 ise :
+    print ( "Yas sınırını aştınız." )
+    print ( "Mülakat başarısız" )
+başka :
+    cevap = input ( "İngilizce ve ya Fransızca biliyor musunuz? E/H" )
+    if  cevap == "H"  veya  cevap == "HAYIR"  veya  cevap == "Hayır" ise :
+        print ( "Dil şartını sağlamıyorsunuz" )
+        print ( "Mülakat başarısız" )
+    elif  cevap == "E" :
+        print ( "Tebrikler" , ad_soyad , "Mülakat başarılı" )
+    else : print ( "Yanlış giriş" )
+
+#*************************************************************************************
+
+kalinan_saat = int ( giriş ( "Kaldığınız saati girin" ))
+toplam_ucret = 0
+kalinan_saat  <= 1 ise :
+    toplam_ucret = 5
+elif ( kalinan_saat > 1 ) ve ( kalinan_saat <= 5 ):
+    toplam_ucret = kalinan_saat * 4
+elif  kalinan_saat > 5 :
+    toplam_ucret = kalinan_saat * 3
+    
+print ( "Ödeyeceğiniz miktar =" , toplam_ucret )
+
+#**************************************************************************************
+
+metin1 = input ( "Bir string girin" )
+metin2 = input ( "Bir string girin" )
+
+ metin1'de i  için : _ 
+    eğer  metin2'de  değilsem  : _  _
+        yazdır ( ben )
+        

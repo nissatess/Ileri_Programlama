@@ -1,0 +1,51 @@
+#Dizi içeren ortalama içerikleri ikinci bi diziye ekleme  rn olarak rastgele içe aktar
+
+liste1 = []
+toplam = 0
+
+ ( 0 , 10 ) aralığında i  için : 
+    sayi = rn . randevu ( 0 , 100 )
+    liste1 . eklemek ( sayi )
+    #toplam=toplam+sayi
+    
+eleman_sayisi = len ( liste1 )
+
+ ( 0 , eleman_sayisi ) aralığında i  için : 
+    toplam = toplam + liste1 [ i ]
+    
+ortalama = toplam / eleman_sayisi
+
+ortalama_üstü = []
+
+ ( 0 , 10 ) aralığında i  için : 
+    if  liste1 [ i ] > ortalama :
+        ortalama_üstü . ekle ( liste1 [ i ])
+
+yazdır ( liste1 )
+yazdır ( ortalama )
+yazdır ( ortalama_üstü )
+        
+#**********************************************************************************************
+
+ rn olarak rastgele  içe aktar 
+
+liste1 = []
+toplam = 0
+
+ ( 0 , 10 ) aralığında i  için : 
+    sayi = rn . randevu ( 0 , 100 )
+    liste1 . eklemek ( sayi )
+yazdır ( liste1 )
+liste1 . sırala ( ters = Yanlış )
+yazdır ( liste1 )
+
+
+#**************************************************************************************************
+
+cumle = "Belirli bir düzende otomatik listeler oluşturmak için liste üreteçleri kullanılır
+
+metin = cumle . bölünmüş ( " " )
+
+ metinde i  için : _ 
+     len ( i ) > 7 ise :
+        yazdır ( ben )

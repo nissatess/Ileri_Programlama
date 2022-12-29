@@ -1,0 +1,88 @@
+'''
+#Klavyeden 0 girilene kadar pozitif ve negatif sayılar girilecek;
+#Girilen ekiplerin kaçı olumsuzluklar? kaçı pozitif? Sayıların ortalaması ?
+
+
+
+sifirMi=Doğru
+negasayac=0
+pozSayac=0
+toplam=0
+sifirMi ise:
+    sayi=int(input("Bir sayı girin"))
+    sayi ==0 ise:
+        sifirMi=Yanlış
+    elif sayi<0:
+        toplam+=toplam+sayi
+        negaSayac=negaSayac+1
+    Başka:
+        toplam=toplam+sayi
+        pozSayac=pozSayac+1
+        
+        
+ort=toplam/(pozSayac+negaSayac)
+print("Ortalama ",ort
+
+
+sayi=int(input("3 basamaklı bir sayı girin"))
+birler=sayi%10
+yuzler=(int)(sayi/100)
+onlar1=int(sayi/10)
+onlar=onlar1%10
+
+
+print("Yüzler", yüzler," Onlar ",onlar,"Birler ",birler)
+toplam=yüzler+onlar+birler
+print("Toplam =",toplam)
+
+
+#Sayı tahmin oyunu
+
+rastgele içe aktar
+
+sayi=random.randint(0,100)
+
+(0,3) aralığındaki i için:
+    tahmin=int(input("Tahmin girin"))
+    sayi==tahmin ise:
+        print("Tebrikler bildiniz")
+        kırmak
+    Başka:
+        print("Bi daha deneme")
+        
+        
+#Asal sayı bulan kod
+sayi=int(input("Bir sayı girin"))
+
+
+aralık(2,sayi) içindeki i için:
+    sayi%i==0 ise:
+        print("Asal degil")
+        kırmak
+    Başka:
+        print("Sayı asaldır")
+cumle="Klavyeden girilen bir kelime içinde sesli harfleri bulan kodu yazar."
+
+
+sayac=0
+harf=input("aranacak harfi girin")
+cumle'de i için:
+    i==harf ise:
+        sayac=sayac+1
+        
+print(harf," harfi cümle içinde", sayac," tane var")
+'''  
+cumle = "Klavyeden girilen bir kelime içinde sesli harfleri bulan kodu yazar."
+sesli = "aeiıouüö"
+sessizlik = " qwrtypğsdghjklşzxcvbnmç "  
+harf_sesli = " "
+harf_sessiz = " "   
+
+ ben  cumle için : _  
+    eğer  sesli ise : _  
+        harf_sesli = harf_sesli + i
+    elif  sessizce : _  _ 
+        harf_sessiz = harf_sessiz + i
+        
+print ( "Sesli harf" , harf_sesli )
+print ( "Sessiz harf" , harf_sessiz )

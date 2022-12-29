@@ -1,0 +1,34 @@
+
+liste = []
+
+elemansayisi = int ( giriş ( "Eleman vermeye girin" ))
+
+toplam = 0
+ ( 0 , elemansayısı ) aralığındaki i  için : 
+    eleman = int ( giriş ( " eleman girin" ))
+    listele _ ekleme ( eleman )
+    toplam = toplam + eleman
+    
+    
+yazdır ( "Liste = " , listele )
+print ( "Elemanların toplamı =" , toplam )
+
+#*******************************************************************************
+
+
+ rastgele içe aktar
+
+liste = []
+sayı = 0
+
+ ( 0 , 10 ) aralığında i  için : 
+    sayi = rastgele _ randevu ( 0 , 100 )  
+    listele _ eklemek ( sayi )
+    
+
+ ( 0 , 10 ) aralığında i  için : 
+    eğer  liste [ i ] < 50 :
+        say = say + 1
+        
+print ( "50'den küçük eleman sayisi=" , sayi )
+yazdır ( liste )

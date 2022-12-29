@@ -1,0 +1,67 @@
+# Faktoriyel hesaplayan fonksiyon
+def  factoriyel ( a ):
+    sazan = 1
+     i  aralığında  ( 1 , a + 1 ) : _
+        sazan = sazan * ben
+    basmak _ _ _    
+
+
+def  factoriyel ( a ):
+    sazan = 1
+     i  aralığında  ( 1 , a + 1 ) : _
+        sazan = sazan * ben
+    dönüş  _
+
+
+sayi = int ( giriş ( "Bir sayı girin" ))
+#faktoriyel(sayi)
+print ( faktöriyel ( sayi ))
+degisken = faktöriyel ( sayi )
+#------------------------------------------------
+
+#Ortalama dışı bölümleri farklı diziye aktarma işlevi
+ rn olarak rastgele  içe aktar 
+liste1 = []
+ ( 0 , 10 ) aralığında i  için : 
+    sayi = rn . randevu ( 0 , 100 )
+    liste1 . eklemek ( sayi )
+    #toplam=toplam+sayi
+
+
+def  ortalama_ustu_bul ( liste1 ):
+    toplam = toplam ( liste1 )
+    eleman_sayisi = len ( liste1 )
+    ortalama = toplam / eleman_sayisi
+    liste2 = []
+
+     ( 0 , eleman_sayisi ) aralığında i  için : 
+        if  liste1 [ i ] > ortalama :
+            liste2 . ekle ( liste1 [ i ])
+
+    dönüş  listesi2
+yazdır ( ortalama_ustu_bul ( liste1 ) )
+yazdır ( liste1 )
+#----------------------------------------------------------------
+
+#Liste içinde string ifade arayan fonksiyon
+liste = [ 'GeeksforGeeks' , 'Geeky' , 'Bilgisayarlar' , 'Algoritmalar' ]
+aranan = input ( "Bir ifade girin" )
+
+def  metin_ara ( liste , bir ):
+    liste1 = [ x  için  x  ,  x'te  aranıyorsa listede x için  ]  
+    dönüş  listesi1
+
+print ( len ( metin_ara ( liste , aranan )))
+#-------------------------------------------------
+
+#Belirli bir dize içindeki karakter görevlerini görerek eleman arama
+
+cumle = "Belirli bir düzende otomatik listeler oluşturmak için liste üreteçleri kullanılır."
+karakter_sayisi = int ( giriş ( "Karakter sayısını girin" ))
+
+def  bul ( cumle , bir ):    
+    liste = cumle . bölünmüş ( " " )
+     listedeki i  için : _ 
+         len ( i ) > a ise :
+            yazdır ( ben )          
+bul ( cumle , karakter_sayisi )

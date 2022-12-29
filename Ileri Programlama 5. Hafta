@@ -1,0 +1,71 @@
+#vize fınal notu hesaplama
+
+""" 
+vize=int(input("Vize notunu girin"))
+final=int(input("Son notunu girin"))
+
+
+ortalama=(vize*0.4)+(nihai*0.6)
+yazdır(ortalama)
+ortalama>40 ise:
+    print("Geçtiniz")
+else: print("Kaldiniz")
+
+
+kelime="Python"
+print(len(kelime))
+
+
+taban=int(input("Tabanı girin"))
+us=int(input("Üssü girin"))
+carpim=1
+aralık(0,us) içindeki i için:
+    carpim=carpim*taban
+    
+    
+print(taban,"'ın ",us,"inci kuvvet =",carpim)
+print(taban**us)
+
+
+matematiği içe aktar
+print(int(math.pow(2, 5)))
+ 
+sifirMi=Doğru
+eb=0
+ek=0
+sifirMi ise:
+    
+    sayi=int(input("Bir sayı girin"))
+    sayi==0 ise:
+        kırmak
+    Başka:
+        eğer sayi>eb ise:
+            eb=sayi
+        elif sayi<ek:
+            ek=sayi
+            
+print("En büyük",eb)
+print("En küçük",ek)
+
+
+ad_soyad=input("Adınız ve soyadınızı girin")
+yas=int(input("Yaşınızı girin"))
+evet>40 ise:
+    print("Yas sınırını aştınız.")
+    print("Mülakat başarısız")
+Başka:
+    cevap=input("İngilizce ve ya Fransızca biliyor musunuz? E/H")
+    cevap=="H" ise:
+        print("Dil şartını sağlamıyorsunuz")
+        print("Mülakat başarısız")
+    elif cevap=="E":
+        print("Tebrikler" , ad_soyad," Mülakat başarılı")
+    else: print("Yanlış girişi")
+'''
+
+kelime1 = input ( "1. Kelimeyi girin" )
+kelime2 = input ( "2. Kelimeyi girin" )
+
+ i  için kelime1 : _ 
+    kelime2'de  değılsem : _ _ _ 
+        yazdır ( ben )

@@ -1,0 +1,40 @@
+'''
+#Klavyeden girilen bir şifrenin karakterlerini kontrol ederek girilen şifrenin 4 karakter olana kadar yeni şifre isteyen, girilince de doğru şifreyi ekranda gösteren python yazar.
+
+kontrol:doğru
+
+kontrol ederken:
+    sifre=input("Şifrenizi girin")
+    uzunluk=len(şifre)
+    uzunluk==4 ise:
+        print("Şifreniz kuruluş")
+        kontrol=Yanlış
+    Başka:
+        print("Şifreyi yeniden girin")
+        
+        
+    
+kalinan_saat=int(input("Kaldığınız saati girin"))
+toplam_ucret=0
+kalinan_saat<=1 ise:
+    toplam_ucret=5
+elif (kalinan_saat>1) ve (kalinan_saat<=5):
+    toplam_ucret=kalinan_saat*4
+elif kalinan_saat>5:
+    toplam_ucret=kalinan_saat*3
+    
+print("Ödeyeceğiniz miktar =",toplam_ucret)
+'''   
+
+kontrol = Doğru
+turkce_karakter = "iöçÜĞŞiIüöŞ"
+
+ kontrol ederken :
+    sifre = input ( "Şifrenizi girin" )
+     sifrede i  için : _ 
+         turkce_karakter'de  olmazsam : _  _  _
+             print ( "Şifreniz kuruluş" )
+             kontrol = Yanlış
+        başka :
+             kontrol = Yanlış
+             print ( "Türkçe karakter kullanılmaz" )

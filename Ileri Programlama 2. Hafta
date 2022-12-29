@@ -1,0 +1,65 @@
+'''
+#1-10 arası çalışan toplamı
+toplam=0
+(0,11) aralığındaki i için:
+    toplam=toplam+
+    
+    
+print("Toplam =",toplam)
+
+
+#süree
+toplam=0
+ben=0
+i<11 iken:
+    toplam=toplam+i
+    ben=ben+1
+print("Toplam =",toplam)
+# klavyeden girilen sayıya kadar olan bileşenlerinin toplamı
+a=int(input("Bir sayı girin"))
+toplam=0
+a>0 iken:
+    toplam=toplam+a
+    a=a-1
+print("Toplam =",toplam)
+
+
+Çift_toplam=0
+Tek_toplam=0
+ben=0
+i<11 iken:
+    i%2==0 ise:
+        Cift_toplam=Cift_toplam+i
+    Başka:
+        Tek_toplam=Tek_toplam+i
+    ben=ben+1
+    
+print("Tek yapilan toplam =",Tek_toplam)
+print("Çift kazancın toplamı =",Cift_toplam)
+
+
+sayi=int(input("Bir sayı girin"))
+
+
+birler=sayi%10
+yuzler=(int)(sayi/100)
+onlar_1=(int)(say/10)
+onlar=onlar_1%10
+
+
+print("Yüzler ",yüzler," Onlar ", onlar," Birler",birler)
+sayi=int(input("Faktoriyeli hesaplanacak sayiyi girin"))
+carpim=1
+i için aralık(1,say+1):
+    carpim=carpim*i
+    
+print("Faktoriyel =" , carpim)
+
+
+sayi=int(input("Faktoriyeli hesaplanacak sayiyi girin"))
+carpim=1
+>0 derken:
+    carpim=carpim*sayi
+    sayi=sayi-1
+print("Faktoriyel =" , carpim)
+    '''
